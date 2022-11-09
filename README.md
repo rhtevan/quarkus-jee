@@ -1,4 +1,4 @@
-# quarkus-jee Project
+# Quarkus a Pragmatic Enterprise Java
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
