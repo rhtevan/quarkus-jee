@@ -58,7 +58,6 @@ public class ReactiveMessagingService {
      * port. 
      */
     @Incoming("hello")
-    @Incoming("hello-from-kafka")
     public void hello(String msg) {
         log.info("Hello " + msg + "!!!");
     }
