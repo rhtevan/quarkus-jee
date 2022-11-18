@@ -135,6 +135,7 @@ public class ReactiveMessagingService {
             //             an exception.
             //         """)))
             .onItem()
+                // Unit-of-Order processing
                 // .transformToUniAndMerge(
                 .transformToUniAndConcatenate(
                     i -> Uni.createFrom().item(i.toString().concat("- delayed"))
